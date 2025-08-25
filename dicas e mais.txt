@@ -1,0 +1,16 @@
+https://voideditor.com/ - IA para codar
+https://v0.app/ - Ia para codar
+
+Servidor: den1.mssql7.gear.host
+Usuário: vendasbicyclon
+Senha: senha@clarify
+
+
+https://codepen.io/ - gerar arquivo js, css e html
+
+quando for pagunar manda para o pythn
+
+exemplo tabela com uma milhao de linhas
+faço uma query no backend para mostrar 10 iten na pagina 1
+se for pagina, faço outra query no backend para mostrar mais 10 items e assim por diante
+

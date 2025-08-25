@@ -1,0 +1,483 @@
+Posição,Cliente,Cidade,Plano Vendido,Status
+1,Ejecta,Curitiba,Enterprise,Premium
+4,Exact Realty,Rio de Janeiro,Enterprise,Premium
+5,Express Merchant,Curitiba,Enterprise,Premium
+6,Perisolution,Porto Alegre,Enterprise,Premium
+7,Plan Smarter,Rio de Janeiro,Enterprise,Premium
+8,Planetbiz,Rio de Janeiro,Enterprise,Premium
+9,Powerbod,Curitiba,Enterprise,Premium
+10,Prahject Planner,Porto Alegre,Enterprise,Premium
+11,Pro-Care Garden,Rio de Janeiro,Enterprise,Premium
+12,Pro Star Game,Rio de Janeiro,Enterprise,Premium
+13,Profitpros,Curitiba,Enterprise,Premium
+14,Datacorp,Porto Alegre,Enterprise,Premium
+15,Destiny Realty,Rio de Janeiro,Enterprise,Premium
+16,Dream House,Rio de Janeiro,Enterprise,Premium
+17,Eden Lawn,Salvador,Enterprise,Premium
+18,Magik Gray,São Paulo,Premium,Padrao
+19,Edge Yard,Porto Alegre,Premium,Padrao
+20,Magna Arch.,Florianópolis,Premium,Padrao
+21,Electronics Source,Rio de Janeiro,Premium,Padrao
+22,MagnaSolution,Salvador,Premium,Padrao
+23,Environ Architectural,Rio de Janeiro,Premium,Padrao
+24,Manu Connection,Porto Alegre,Premium,Padrao
+25,Envirotecture Design,Curitiba,Premium,Padrao
+26,Matrix Arch.,São Paulo,Premium,Padrao
+27,Excella,Porto Alegre,Premium,Padrao
+28,Maxi-Tech,Florianópolis,Premium,Padrao
+29,Pearl Architectural,Rio de Janeiro,Premium,Padrao
+30,Megatronic,Salvador,Premium,Padrao
+31,Plan Future,Rio de Janeiro,Premium,Padrao
+32,Micro Design,Porto Alegre,Premium,Padrao
+33,Planet Profit,Curitiba,Premium,Padrao
+34,Millenia Life,São Paulo,Premium,Padrao
+35,Pointers,Porto Alegre,Premium,Padrao
+36,Mission You,Florianópolis,Premium,Padrao
+37,Practi-Plan Mapping,Rio de Janeiro,Premium,Padrao
+38,Monit,Salvador,Premium,Padrao
+39,Prestigabiz,Rio de Janeiro,Premium,Padrao
+40,Main House,Porto Alegre,Premium,Padrao
+41,Pro Property,Curitiba,Premium,Padrao
+42,Monky House,São Paulo,Premium,Padrao
+43,Pro Yard,Porto Alegre,Premium,Padrao
+44,Monsource,Florianópolis,Premium,Padrao
+45,Protean,Rio de Janeiro,Premium,Padrao
+46,Multicerv,Salvador,Premium,Padrao
+47,Destiny Planners,Rio de Janeiro,Premium,Padrao
+48,Earthworks Garden,Porto Alegre,Premium,Padrao
+49,Dream Home,Curitiba,Premium,Padrao
+50,Fireball,Salvador,Pro,Padrao
+51,Dunk To.,Porto Alegre,Pro,Padrao
+52,Ideal Gard,Curitiba,Pro,Padrao
+53,First Rate,São Paulo,Pro,Padrao
+54,Target Source,Rio de Janeiro,Pro,Padrao
+55,Independent Wealth,São Paulo,Pro,Padrao
+56,Formula Gray,Belo Horizonte,Pro,Padrao
+57,Techo Solutions,Porto Alegre,Pro,Padrao
+58,Infinite Wealth,São Paulo,Pro,Padrao
+59,Fragrant Flower,Belo Horizonte,Pro,Padrao
+60,The Flying,São Paulo,Pro,Padrao
+61,Integra Investment,Rio de Janeiro,Pro,Padrao
+62,Friendly Advice,Salvador,Pro,Padrao
+63,The Goose,Porto Alegre,Pro,Padrao
+64,Integra Health,Curitiba,Pro,Padrao
+65,Future Bright,São Paulo,Pro,Padrao
+66,The Independent,Rio de Janeiro,Pro,Padrao
+67,Landskip Garden,São Paulo,Pro,Padrao
+68,Accord Investments,Belo Horizonte,Pro,Padrao
+69,The Network,Porto Alegre,Pro,Padrao
+70,Lawn N',São Paulo,Pro,Padrao
+71,Adaptabiz,Belo Horizonte,Pro,Padrao
+72,The Serendipity,São Paulo,Pro,Padrao
+73,Libera,Rio de Janeiro,Pro,Padrao
+74,Advansed Teksyztems,Salvador,Pro,Padrao
+75,The White,Porto Alegre,Pro,Padrao
+76,Life Mapping,Curitiba,Pro,Padrao
+77,Afforda Merchant,São Paulo,Pro,Padrao
+78,Total Quality,Rio de Janeiro,Pro,Padrao
+79,Life's Gold,São Paulo,Pro,Padrao
+80,Alladin's Lamp,Belo Horizonte,Pro,Padrao
+81,Total Garden,Porto Alegre,Pro,Padrao
+82,Lone Wolf,São Paulo,Pro,Padrao
+83,Asian Fusion,Belo Horizonte,Pro,Padrao
+84,Beasts of,São Paulo,Pro,Padrao
+85,Netobill,Rio de Janeiro,Pro,Padrao
+86,Asian Solutions,Salvador,Pro,Padrao
+87,Benesome,Porto Alegre,Pro,Padrao
+88,Netstars Matrix,Curitiba,Pro,Padrao
+89,Atlas Realty,São Paulo,Pro,Padrao
+90,Buena Vista,Rio de Janeiro,Pro,Padrao
+91,New World,São Paulo,Pro,Padrao
+92,AvantGard,Belo Horizonte,Pro,Padrao
+93,Body Toning,Porto Alegre,Pro,Padrao
+94,Nutri G,São Paulo,Pro,Padrao
+95,Magna Architectural,Belo Horizonte,Pro,Padrao
+96,Bountiful Harvest,São Paulo,Pro,Padrao
+97,Simply Appraisals,Rio de Janeiro,Pro,Padrao
+98,Dun Rite,Rio de Janeiro,Regular,Padrao
+99,Edge Garden,Rio de Janeiro,Regular,Padrao
+100,Magik Grey,Porto Alegre,Regular,Padrao
+101,Incluesiv,Rio de Janeiro,Regular,Padrao
+102,Target Realty,Porto Alegre,Regular,Padrao
+103,Electronic Geek,Rio de Janeiro,Regular,Padrao
+104,Magna Gases,São Paulo,Regular,Padrao
+105,Indiewealth,Curitiba,Regular,Padrao
+106,Team Uno,São Paulo,Regular,Padrao
+107,Enviro Arch.,Curitiba,Regular,Padrao
+108,ManCharm,Florianópolis,Regular,Padrao
+109,Infinity Investment,São Paulo,Regular,Padrao
+110,Terra Nova,Porto Alegre,Regular,Padrao
+111,Envirotecture Total,Porto Alegre,Regular,Padrao
+112,Maxaprofit,Salvador,Regular,Padrao
+113,Integra Investmentments,São Paulo,Regular,Padrao
+114,The Option,Rio de Janeiro,Regular,Padrao
+115,Exact Solutions,Rio de Janeiro,Regular,Padrao
+116,Matrix Design,Porto Alegre,Regular,Padrao
+117,Intelacard,Rio de Janeiro,Regular,Padrao
+118,The High,Porto Alegre,Regular,Padrao
+119,Parts and,Rio de Janeiro,Regular,Padrao
+120,Maxiserve ,São Paulo,Regular,Padrao
+121,Landskip Yard,Curitiba,Regular,Padrao
+122,The Lawn,São Paulo,Regular,Padrao
+123,Personal &,Curitiba,Regular,Padrao
+124,Megatronic Plus,Florianópolis,Regular,Padrao
+125,Lawnscape Garden,São Paulo,Regular,Padrao
+126,The Polka,Porto Alegre,Regular,Padrao
+127,Plan Smart,Porto Alegre,Regular,Padrao
+128,Mikro Designs,Salvador,Regular,Padrao
+129,Liberty Heakth,São Paulo,Regular,Padrao
+130,The White House,Rio de Janeiro,Regular,Padrao
+131,Platinum Interior,Rio de Janeiro,Regular,Padrao
+132,Mission G,Porto Alegre,Regular,Padrao
+133,Life Map,Rio de Janeiro,Regular,Padrao
+134,Total Network,Porto Alegre,Regular,Padrao
+135,Practi-Plan,Rio de Janeiro,Regular,Padrao
+136,Modern Architecture,São Paulo,Regular,Padrao
+137,Listen Up,Curitiba,Regular,Padrao
+138,Total Sources,São Paulo,Regular,Padrao
+139,Prestiga-Biz,Curitiba,Regular,Padrao
+140,Monlinks,Florianópolis,Regular,Padrao
+141,Naturohair,São Paulo,Regular,Padrao
+142,Balanced Fortune,Porto Alegre,Regular,Padrao
+143,Pro Garden,Porto Alegre,Regular,Padrao
+144,Monk Home,Salvador,Regular,Padrao
+145,Netcom Business,São Paulo,Regular,Padrao
+146,Belle Lady,Rio de Janeiro,Regular,Padrao
+147,Pro Star,Rio de Janeiro,Regular,Padrao
+148,Monk Real,Porto Alegre,Regular,Padrao
+149,Network Air,Rio de Janeiro,Regular,Padrao
+150,Better Business,Porto Alegre,Regular,Padrao
+151,Prospa-Pal,Rio de Janeiro,Regular,Padrao
+152,Multi-Systems Merchant,São Paulo,Regular,Padrao
+153,Newhair,Curitiba,Regular,Padrao
+154,Body Fate,São Paulo,Regular,Padrao
+155,Desert Garden,Curitiba,Regular,Padrao
+156,Muscle Factory,Florianópolis,Regular,Padrao
+157,Signa Air,São Paulo,Regular,Padrao
+158,Bonanza Produce,Porto Alegre,Regular,Padrao
+159,Destiny Reality,Porto Alegre,Regular,Padrao
+160,Earthworks Yard,Salvador,Regular,Padrao
+161,Simply Save,São Paulo,Regular,Padrao
+162,Sistemos,Rio de Janeiro,Regular,Padrao
+163,Magna Solution,Belo Horizonte,Regular,Padrao
+164,Fellowship Investments,São Paulo,Basic,Padrao
+165,Matrix Architectural,Florianópolis,Basic,Padrao
+166,Ideal Garden,São Paulo,Basic,Padrao
+167,First Option,Belo Horizonte,Basic,Padrao
+168,Dynatronics Accessories,São Paulo,Basic,Padrao
+169,First Choice,Belo Horizonte,Basic,Padrao
+170,Magik Lamp,Salvador,Basic,Padrao
+171,Independent Investors,São Paulo,Basic,Padrao
+172,Fit Tonic,Salvador,Basic,Padrao
+173,Team Designers,Porto Alegre,Basic,Padrao
+174,Flexus,Belo Horizonte,Basic,Padrao
+175,Magna Wealth,Porto Alegre,Basic,Padrao
+176,Infinite Health,Rio de Janeiro,Basic,Padrao
+177,Formula Grey,São Paulo,Basic,Padrao
+178,Terra,Rio de Janeiro,Basic,Padrao
+179,Four Leaf,Salvador,Basic,Padrao
+180,ManPower,São Paulo,Basic,Padrao
+181,Integra Design,Curitiba,Basic,Padrao
+182,Freedom Map,Belo Horizonte,Basic,Padrao
+183,The Fox,Porto Alegre,Basic,Padrao
+184,Fresh Start,São Paulo,Basic,Padrao
+185,Master Builder,Florianópolis,Basic,Padrao
+186,Integra Wealth,São Paulo,Basic,Padrao
+187,Friendly Interior,Belo Horizonte,Basic,Padrao
+188,The Happy,São Paulo,Basic,Padrao
+189,Full Color,Belo Horizonte,Basic,Padrao
+190,Matrix Interior,Salvador,Basic,Padrao
+191,Intelli Wealth,São Paulo,Basic,Padrao
+192,Future Plan,Salvador,Basic,Padrao
+193,The Jolly,Porto Alegre,Basic,Padrao
+194,Access Asia,Belo Horizonte,Basic,Padrao
+195,MegaSolutions,Porto Alegre,Basic,Padrao
+196,Las Vegas,Rio de Janeiro,Basic,Padrao
+197,Acuserv,São Paulo,Basic,Padrao
+198,The Pink,Rio de Janeiro,Basic,Padrao
+199,Adapt,Salvador,Basic,Padrao
+200,Merrymaking,São Paulo,Basic,Padrao
+201,Lazysize,Curitiba,Basic,Padrao
+202,Adaptas,Belo Horizonte,Basic,Padrao
+203,The Spotted,Porto Alegre,Basic,Padrao
+204,Adaptaz,São Paulo,Basic,Padrao
+205,Mikrotechnic,Florianópolis,Basic,Padrao
+206,Liberty Wealth,São Paulo,Basic,Padrao
+207,Affinity Investment,Belo Horizonte,Basic,Padrao
+208,Titania,São Paulo,Basic,Padrao
+209,Afforda,Belo Horizonte,Basic,Padrao
+210,Mission Realty,Salvador,Basic,Padrao
+211,Life Plan,São Paulo,Basic,Padrao
+212,Alert Alarm,Salvador,Basic,Padrao
+213,Total Serve,Porto Alegre,Basic,Padrao
+214,Alladin Realty,Belo Horizonte,Basic,Padrao
+215,Modern Realty,Porto Alegre,Basic,Padrao
+216,Locost Accessories,Rio de Janeiro,Basic,Padrao
+217,Architectural Genie,São Paulo,Basic,Padrao
+218,Total Yard,Rio de Janeiro,Basic,Padrao
+219,Asian Answers,Salvador,Basic,Padrao
+220,Monk House,São Paulo,Basic,Padrao
+221,Netaid,Curitiba,Basic,Padrao
+222,Asian Junction,Belo Horizonte,Basic,Padrao
+223,Belle Ladi,Porto Alegre,Basic,Padrao
+224,Asian Plan,São Paulo,Basic,Padrao
+225,Monk Furn,Florianópolis,Basic,Padrao
+226,Netcore,São Paulo,Basic,Padrao
+227,Asiatic Solutions,Belo Horizonte,Basic,Padrao
+228,Best Biz,São Paulo,Basic,Padrao
+229,Atlas Architectural,Belo Horizonte,Basic,Padrao
+230,Monmax,Salvador,Basic,Padrao
+231,New World Gen,São Paulo,Basic,Padrao
+232,Avant Garde,Salvador,Basic,Padrao
+233,Buena To.,Porto Alegre,Basic,Padrao
+234,Avant Garden,Belo Horizonte,Basic,Padrao
+235,Multi Tech,Porto Alegre,Basic,Padrao
+236,Northern Star,Rio de Janeiro,Basic,Padrao
+237,Awthentikz,São Paulo,Basic,Padrao
+238,Bold Ideas,Rio de Janeiro,Basic,Padrao
+239,Macroserve,Salvador,Basic,Padrao
+240,E-zhe Source,São Paulo,Basic,Padrao
+241,Simple Solutions,Curitiba,Basic,Padrao
+242,Magna Consulting,Belo Horizonte,Basic,Padrao
+243,Brilliant Home,Porto Alegre,Basic,Padrao
+244,Dreamscape Garden,Curitiba,Basic,Padrao
+245,Idea Infinity,São Paulo,Basic,Padrao
+7,Plan Smarter,Rio de Janeiro,Enterprise,Premium
+8,Planetbiz,Rio de Janeiro,Enterprise,Premium
+9,Powerbod,Curitiba,Enterprise,Premium
+10,Prahject Planner,Porto Alegre,Enterprise,Premium
+11,Pro-Care Garden,Rio de Janeiro,Enterprise,Premium
+12,Pro Star Game,Rio de Janeiro,Enterprise,Premium
+13,Profitpros,Curitiba,Enterprise,Premium
+14,Datacorp,Porto Alegre,Enterprise,Premium
+15,Destiny Realty,Rio de Janeiro,Enterprise,Premium
+16,Dream House,Rio de Janeiro,Enterprise,Premium
+17,Eden Lawn,Salvador,Enterprise,Premium
+18,Magik Gray,São Paulo,Premium,Padrao
+19,Edge Yard,Porto Alegre,Premium,Padrao
+20,Magna Arch.,Florianópolis,Premium,Padrao
+21,Electronics Source,Rio de Janeiro,Premium,Padrao
+22,MagnaSolution,Salvador,Premium,Padrao
+23,Environ Architectural,Rio de Janeiro,Premium,Padrao
+24,Manu Connection,Porto Alegre,Premium,Padrao
+25,Envirotecture Design,Curitiba,Premium,Padrao
+26,Matrix Arch.,São Paulo,Premium,Padrao
+27,Excella,Porto Alegre,Premium,Padrao
+28,Maxi-Tech,Florianópolis,Premium,Padrao
+29,Pearl Architectural,Rio de Janeiro,Premium,Padrao
+30,Megatronic,Salvador,Premium,Padrao
+31,Plan Future,Rio de Janeiro,Premium,Padrao
+32,Micro Design,Porto Alegre,Premium,Padrao
+33,Planet Profit,Curitiba,Premium,Padrao
+34,Millenia Life,São Paulo,Premium,Padrao
+35,Pointers,Porto Alegre,Premium,Padrao
+36,Mission You,Florianópolis,Premium,Padrao
+37,Practi-Plan Mapping,Rio de Janeiro,Premium,Padrao
+38,Monit,Salvador,Premium,Padrao
+39,Prestigabiz,Rio de Janeiro,Premium,Padrao
+40,Main House,Porto Alegre,Premium,Padrao
+41,Pro Property,Curitiba,Premium,Padrao
+42,Monky House,São Paulo,Premium,Padrao
+43,Pro Yard,Porto Alegre,Premium,Padrao
+44,Monsource,Florianópolis,Premium,Padrao
+45,Protean,Rio de Janeiro,Premium,Padrao
+46,Multicerv,Salvador,Premium,Padrao
+47,Destiny Planners,Rio de Janeiro,Premium,Padrao
+48,Earthworks Garden,Porto Alegre,Premium,Padrao
+49,Dream Home,Curitiba,Premium,Padrao
+50,Fireball,Salvador,Pro,Padrao
+51,Dunk To.,Porto Alegre,Pro,Padrao
+52,Ideal Gard,Curitiba,Pro,Padrao
+53,First Rate,São Paulo,Pro,Padrao
+54,Target Source,Rio de Janeiro,Pro,Padrao
+55,Independent Wealth,São Paulo,Pro,Padrao
+56,Formula Gray,Belo Horizonte,Pro,Padrao
+57,Techo Solutions,Porto Alegre,Pro,Padrao
+58,Infinite Wealth,São Paulo,Pro,Padrao
+59,Fragrant Flower,Belo Horizonte,Pro,Padrao
+60,The Flying,São Paulo,Pro,Padrao
+61,Integra Investment,Rio de Janeiro,Pro,Padrao
+62,Friendly Advice,Salvador,Pro,Padrao
+63,The Goose,Porto Alegre,Pro,Padrao
+64,Integra Health,Curitiba,Pro,Padrao
+65,Future Bright,São Paulo,Pro,Padrao
+66,The Independent,Rio de Janeiro,Pro,Padrao
+67,Landskip Garden,São Paulo,Pro,Padrao
+68,Accord Investments,Belo Horizonte,Pro,Padrao
+69,The Network,Porto Alegre,Pro,Padrao
+70,Lawn N',São Paulo,Pro,Padrao
+71,Adaptabiz,Belo Horizonte,Pro,Padrao
+72,The Serendipity,São Paulo,Pro,Padrao
+73,Libera,Rio de Janeiro,Pro,Padrao
+74,Advansed Teksyztems,Salvador,Pro,Padrao
+75,The White,Porto Alegre,Pro,Padrao
+76,Life Mapping,Curitiba,Pro,Padrao
+77,Afforda Merchant,São Paulo,Pro,Padrao
+78,Total Quality,Rio de Janeiro,Pro,Padrao
+79,Life's Gold,São Paulo,Pro,Padrao
+80,Alladin's Lamp,Belo Horizonte,Pro,Padrao
+81,Total Garden,Porto Alegre,Pro,Padrao
+82,Lone Wolf,São Paulo,Pro,Padrao
+83,Asian Fusion,Belo Horizonte,Pro,Padrao
+84,Beasts of,São Paulo,Pro,Padrao
+85,Netobill,Rio de Janeiro,Pro,Padrao
+86,Asian Solutions,Salvador,Pro,Padrao
+87,Benesome,Porto Alegre,Pro,Padrao
+88,Netstars Matrix,Curitiba,Pro,Padrao
+89,Atlas Realty,São Paulo,Pro,Padrao
+90,Buena Vista,Rio de Janeiro,Pro,Padrao
+91,New World,São Paulo,Pro,Padrao
+92,AvantGard,Belo Horizonte,Pro,Padrao
+93,Body Toning,Porto Alegre,Pro,Padrao
+94,Nutri G,São Paulo,Pro,Padrao
+95,Magna Architectural,Belo Horizonte,Pro,Padrao
+96,Bountiful Harvest,São Paulo,Pro,Padrao
+97,Simply Appraisals,Rio de Janeiro,Pro,Padrao
+98,Dun Rite,Rio de Janeiro,Regular,Padrao
+99,Edge Garden,Rio de Janeiro,Regular,Padrao
+100,Magik Grey,Porto Alegre,Regular,Padrao
+101,Incluesiv,Rio de Janeiro,Regular,Padrao
+102,Target Realty,Porto Alegre,Regular,Padrao
+103,Electronic Geek,Rio de Janeiro,Regular,Padrao
+104,Magna Gases,São Paulo,Regular,Padrao
+105,Indiewealth,Curitiba,Regular,Padrao
+106,Team Uno,São Paulo,Regular,Padrao
+107,Enviro Arch.,Curitiba,Regular,Padrao
+108,ManCharm,Florianópolis,Regular,Padrao
+109,Infinity Investment,São Paulo,Regular,Padrao
+110,Terra Nova,Porto Alegre,Regular,Padrao
+111,Envirotecture Total,Porto Alegre,Regular,Padrao
+112,Maxaprofit,Salvador,Regular,Padrao
+113,Integra Investmentments,São Paulo,Regular,Padrao
+114,The Option,Rio de Janeiro,Regular,Padrao
+115,Exact Solutions,Rio de Janeiro,Regular,Padrao
+116,Matrix Design,Porto Alegre,Regular,Padrao
+117,Intelacard,Rio de Janeiro,Regular,Padrao
+118,The High,Porto Alegre,Regular,Padrao
+119,Parts and,Rio de Janeiro,Regular,Padrao
+120,Maxiserve ,São Paulo,Regular,Padrao
+121,Landskip Yard,Curitiba,Regular,Padrao
+122,The Lawn,São Paulo,Regular,Padrao
+123,Personal &,Curitiba,Regular,Padrao
+124,Megatronic Plus,Florianópolis,Regular,Padrao
+125,Lawnscape Garden,São Paulo,Regular,Padrao
+126,The Polka,Porto Alegre,Regular,Padrao
+127,Plan Smart,Porto Alegre,Regular,Padrao
+128,Mikro Designs,Salvador,Regular,Padrao
+129,Liberty Heakth,São Paulo,Regular,Padrao
+130,The White House,Rio de Janeiro,Regular,Padrao
+131,Platinum Interior,Rio de Janeiro,Regular,Padrao
+132,Mission G,Porto Alegre,Regular,Padrao
+133,Life Map,Rio de Janeiro,Regular,Padrao
+134,Total Network,Porto Alegre,Regular,Padrao
+135,Practi-Plan,Rio de Janeiro,Regular,Padrao
+136,Modern Architecture,São Paulo,Regular,Padrao
+137,Listen Up,Curitiba,Regular,Padrao
+138,Total Sources,São Paulo,Regular,Padrao
+139,Prestiga-Biz,Curitiba,Regular,Padrao
+140,Monlinks,Florianópolis,Regular,Padrao
+141,Naturohair,São Paulo,Regular,Padrao
+142,Balanced Fortune,Porto Alegre,Regular,Padrao
+143,Pro Garden,Porto Alegre,Regular,Padrao
+144,Monk Home,Salvador,Regular,Padrao
+145,Netcom Business,São Paulo,Regular,Padrao
+146,Belle Lady,Rio de Janeiro,Regular,Padrao
+147,Pro Star,Rio de Janeiro,Regular,Padrao
+148,Monk Real,Porto Alegre,Regular,Padrao
+149,Network Air,Rio de Janeiro,Regular,Padrao
+150,Better Business,Porto Alegre,Regular,Padrao
+151,Prospa-Pal,Rio de Janeiro,Regular,Padrao
+152,Multi-Systems Merchant,São Paulo,Regular,Padrao
+153,Newhair,Curitiba,Regular,Padrao
+154,Body Fate,São Paulo,Regular,Padrao
+155,Desert Garden,Curitiba,Regular,Padrao
+156,Muscle Factory,Florianópolis,Regular,Padrao
+157,Signa Air,São Paulo,Regular,Padrao
+158,Bonanza Produce,Porto Alegre,Regular,Padrao
+159,Destiny Reality,Porto Alegre,Regular,Padrao
+160,Earthworks Yard,Salvador,Regular,Padrao
+161,Simply Save,São Paulo,Regular,Padrao
+162,Sistemos,Rio de Janeiro,Regular,Padrao
+163,Magna Solution,Belo Horizonte,Regular,Padrao
+164,Fellowship Investments,São Paulo,Basic,Padrao
+165,Matrix Architectural,Florianópolis,Basic,Padrao
+166,Ideal Garden,São Paulo,Basic,Padrao
+167,First Option,Belo Horizonte,Basic,Padrao
+168,Dynatronics Accessories,São Paulo,Basic,Padrao
+169,First Choice,Belo Horizonte,Basic,Padrao
+170,Magik Lamp,Salvador,Basic,Padrao
+171,Independent Investors,São Paulo,Basic,Padrao
+172,Fit Tonic,Salvador,Basic,Padrao
+173,Team Designers,Porto Alegre,Basic,Padrao
+174,Flexus,Belo Horizonte,Basic,Padrao
+175,Magna Wealth,Porto Alegre,Basic,Padrao
+176,Infinite Health,Rio de Janeiro,Basic,Padrao
+177,Formula Grey,São Paulo,Basic,Padrao
+178,Terra,Rio de Janeiro,Basic,Padrao
+179,Four Leaf,Salvador,Basic,Padrao
+180,ManPower,São Paulo,Basic,Padrao
+181,Integra Design,Curitiba,Basic,Padrao
+182,Freedom Map,Belo Horizonte,Basic,Padrao
+183,The Fox,Porto Alegre,Basic,Padrao
+184,Fresh Start,São Paulo,Basic,Padrao
+185,Master Builder,Florianópolis,Basic,Padrao
+186,Integra Wealth,São Paulo,Basic,Padrao
+187,Friendly Interior,Belo Horizonte,Basic,Padrao
+188,The Happy,São Paulo,Basic,Padrao
+189,Full Color,Belo Horizonte,Basic,Padrao
+190,Matrix Interior,Salvador,Basic,Padrao
+191,Intelli Wealth,São Paulo,Basic,Padrao
+192,Future Plan,Salvador,Basic,Padrao
+193,The Jolly,Porto Alegre,Basic,Padrao
+194,Access Asia,Belo Horizonte,Basic,Padrao
+195,MegaSolutions,Porto Alegre,Basic,Padrao
+196,Las Vegas,Rio de Janeiro,Basic,Padrao
+197,Acuserv,São Paulo,Basic,Padrao
+198,The Pink,Rio de Janeiro,Basic,Padrao
+199,Adapt,Salvador,Basic,Padrao
+200,Merrymaking,São Paulo,Basic,Padrao
+201,Lazysize,Curitiba,Basic,Padrao
+202,Adaptas,Belo Horizonte,Basic,Padrao
+203,The Spotted,Porto Alegre,Basic,Padrao
+204,Adaptaz,São Paulo,Basic,Padrao
+205,Mikrotechnic,Florianópolis,Basic,Padrao
+206,Liberty Wealth,São Paulo,Basic,Padrao
+207,Affinity Investment,Belo Horizonte,Basic,Padrao
+208,Titania,São Paulo,Basic,Padrao
+209,Afforda,Belo Horizonte,Basic,Padrao
+210,Mission Realty,Salvador,Basic,Padrao
+211,Life Plan,São Paulo,Basic,Padrao
+212,Alert Alarm,Salvador,Basic,Padrao
+213,Total Serve,Porto Alegre,Basic,Padrao
+214,Alladin Realty,Belo Horizonte,Basic,Padrao
+215,Modern Realty,Porto Alegre,Basic,Padrao
+216,Locost Accessories,Rio de Janeiro,Basic,Padrao
+217,Architectural Genie,São Paulo,Basic,Padrao
+218,Total Yard,Rio de Janeiro,Basic,Padrao
+219,Asian Answers,Salvador,Basic,Padrao
+220,Monk House,São Paulo,Basic,Padrao
+221,Netaid,Curitiba,Basic,Padrao
+222,Asian Junction,Belo Horizonte,Basic,Padrao
+223,Belle Ladi,Porto Alegre,Basic,Padrao
+224,Asian Plan,São Paulo,Basic,Padrao
+225,Monk Furn,Florianópolis,Basic,Padrao
+226,Netcore,São Paulo,Basic,Padrao
+227,Asiatic Solutions,Belo Horizonte,Basic,Padrao
+228,Best Biz,São Paulo,Basic,Padrao
+229,Atlas Architectural,Belo Horizonte,Basic,Padrao
+230,Monmax,Salvador,Basic,Padrao
+231,New World Gen,São Paulo,Basic,Padrao
+232,Avant Garde,Salvador,Basic,Padrao
+233,Buena To.,Porto Alegre,Basic,Padrao
+234,Avant Garden,Belo Horizonte,Basic,Padrao
+235,Multi Tech,Porto Alegre,Basic,Padrao
+236,Northern Star,Rio de Janeiro,Basic,Padrao
+237,Awthentikz,São Paulo,Basic,Padrao
+238,Bold Ideas,Rio de Janeiro,Basic,Padrao
+239,Macroserve,Salvador,Basic,Padrao
+240,E-zhe Source,São Paulo,Basic,Padrao
+241,Simple Solutions,Curitiba,Basic,Padrao
+242,Magna Consulting,Belo Horizonte,Basic,Padrao
+243,Brilliant Home,Porto Alegre,Basic,Padrao
+244,Dreamscape Garden,Curitiba,Basic,Padrao
+245,Idea Infinity,São Paulo,Basic,Padrao
