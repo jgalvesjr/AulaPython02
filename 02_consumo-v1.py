@@ -6,6 +6,7 @@ import plotly.io as pio
 import random
 import configuracoes as config
 
+menuInicio = config.inicioPath
 caminhoBanco = config.DB_PATH
 queryVerVingadores = config.consulta01
 queryGrafico1 = config.consulta02
@@ -29,29 +30,6 @@ dfAvengers.to_sql('vingadores', conn, if_exists='replace', index=False)
 conn.commit()
 conn.close()
 
-html_template = '''
-    <h1>Dashboard - Consumo de Alcool</h1>
-    <h2>Parte 01</h2>
-    <ul>
-        <li><a href="/grafico1">Top 10 paises em consumo de alcool</a></li>
-        <li><a href="/grafico2">Media de consumo por tipo de bebida</a></li>
-        <li><a href="/grafico3">Consumo total por regiao</a></li>
-        <li><a href="/grafico4">Comparativo entre tipos de bebidas</a></li>
-        <li><a href="/pais?nome=Brazil">Insights por pais (Brasil)</a></li>
-    </ul>
-    <h2>Parte 02</h2>
-    <ul>
-        <li><a href="/comparar">Comparar</a></li>
-        <li><a href="/upload_avengers">Uplaod CSV</a></li>
-        <li><a href="/apagar_vingadores">Apagar tabela Avengers</a></li>
-        <li><a href="/atribuir_paises_avengers">Atribiur Paises</a></li>
-        <li><a href="/ver_vingadores">Ver tabela Avengers</a></li>
-        <li><a href="/consultar_avengers">Consultar detalhes do Vingador</a></li>
-        <li><a href="/avengers_vs_drinks">V.A.A (Vingadores Alcoolicos Anonimos)</a></li>
-    </ul>
-
-
-'''
 
 #iniciar o flask
 #__name__ é o nome da nossa aplicacao - herdar tudo do flask
@@ -60,7 +38,7 @@ app = Flask(__name__)
 #render_template_string reinderiza o html para mostrar na rota
 @app.route('/')
 def index():
-    return render_template_string(html_template)
+    return render_template('inicio.html')
 
 @app.route('/grafico1')
 def grafico1():
@@ -250,7 +228,9 @@ def apagar_vingadores():
     conn.close()
     return mensagem + "<br><a href='/'>Voltar</a>"
     
-
+@app.route('/documentacao')
+def documentacao():
+    return render_template('documentacao.html') + "<br><a href='/'>Voltar</a>"
 
 #niciar o servidor
 if __name__ == '__main__':

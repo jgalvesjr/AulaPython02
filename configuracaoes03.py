@@ -1,0 +1,1 @@
+baseRUL = "https://www.adorocinema.com/filmes/melhores/"
