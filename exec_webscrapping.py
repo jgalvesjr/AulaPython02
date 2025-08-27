@@ -25,8 +25,8 @@ card_temp_min = 1
 card_temp_max = 3
 page_temp_min = 2
 page_temp_max  = 5
-bancoDados = 'C:/Users/integral/Desktop/Python2_Joao/banco_sampa_ingresso.db'
-saidaCSV = f'filmes_sampaingresso_{data_hoje}-{data_hoje}.csv'
+bancoDados = 'C:/Users/integral/Desktop/Python2_Joao/banco_sampa_ingresso_1.db'
+saidaCSV = f'filmes_sampaingresso_1_{data_hoje}-{data_hoje}.csv'
 
 for pagina in range(1,paginaLimite+1):
     url = f'{baseURL}?pagina={pagina}'

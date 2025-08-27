@@ -14,3 +14,6 @@ exemplo tabela com uma milhao de linhas
 faço uma query no backend para mostrar 10 iten na pagina 1
 se for pagina, faço outra query no backend para mostrar mais 10 items e assim por diante
 
+https://string.com/ - crar um fluxo e as ferramentas
+Exemplo quero um fluxo para pegar todas as noticas tipo Fatima Bernads e Willian Bonner e me mandar no whatsup
+

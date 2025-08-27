@@ -18,7 +18,7 @@ headers = {
 
 #baseRUL = 'https://www.adorocinema.com/filmes/melhores/'
 baseURL = "https://www.sampaingressos.com.br/templates/ajax/lista_espetaculo.php"
-filmes = [] #Lista que vai armazenar os dados da coleta de cada filme
+shows = [] #Lista que vai armazenar os dados da coleta de cada filme
 data_hoje = datetime.date.today().strftime('%d-%m-%Y')
 agora = datetime.datetime.now()
 paginaLimite = 2 #quantidade de paginas -1 para ser consultada
@@ -26,8 +26,8 @@ card_temp_min = 1
 card_temp_max = 3
 page_temp_min = 2
 page_temp_max  = 5
-bancoDados = 'C:/Users/integral/Desktop/Python2_Joao/banco_filmes.db'
-saidaCSV = f'filmes_adorocinema_{data_hoje}-{data_hoje}.csv'
+bancoDados = 'C:/Users/integral/Desktop/Python2_Joao/banco_sampa_ingresso.db'
+saidaCSV = f'shows_sampa_ingresso_{data_hoje}-{agora}.csv'
 
 for pagina in range(1,paginaLimite +1 ):
     url = f'{baseURL}?page={pagina}&tipoEspetaculos=shows'#https://www.adorocinema.com/filmes/melhores/?page=2 coloca o numero da pagina
@@ -56,7 +56,7 @@ for pagina in range(1,paginaLimite +1 ):
             horario = horario_tag.text.strip() if horario_tag else 'N/A'
 
             if titulo != 'N/A':
-                filmes.append({   
+                shows.append({   
                         'Titulo': titulo,
                         'Local': local,
                         'Horario': horario})
@@ -74,7 +74,7 @@ for pagina in range(1,paginaLimite +1 ):
     time.sleep(tempo)   
 
 #converter os dados coletados para dataframe do pandas
-df = pd.DataFrame(filmes)
+df = pd.DataFrame(shows)
 print(df.head())
 
 df.to_csv(saidaCSV, index=False, encoding='utf-8-sig', quotechar="'", quoting=1)
@@ -84,37 +84,35 @@ df.to_csv(saidaCSV, index=False, encoding='utf-8-sig', quotechar="'", quoting=1)
 conn = sqlite3.connect(bancoDados)
 cursor = conn.cursor()
 cursor.execute('''
-    CREATE TABLE IF NOT EXISTS filmes(
+    CREATE TABLE IF NOT EXISTS shows(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         Titulo TEXT,
         Local TEXT,
-        Horatio TEXT
+        Horario TEXT
+    )
 ''')
 
 # inserir cada filme coletado dentro da tabela do banco de dados
 
-for filme in filmes:
+for evento in shows:
     try:
         cursor.execute('''
-            INSERT INTO filmes (Titulo, Local, Horario) VALUES (?,?,?)
+            INSERT INTO shows (Titulo, Local, Horario) VALUES (?,?,?)
         ''',(
-            filme['Titulo'],
-            filme['Direcao'],
-            float(filme['Nota']) if filme['Nota'] != 'N/A' else None,
-            filme['Link'],
-            filme['Ano'],
-            filme['Categoria']
+            evento['Titulo'],
+            evento['Local'],
+            evento['Horario']
     ))
     except Exception as e:
-        print(f"Erro ao inserir filme {filme['Titulo']} no banco de dados. Codigo de identificacao do erro {e}")
+        print(f"Erro ao inserir evento {evento['Titulo']} no banco de dados. Codigo de identificacao do erro {e}")
 conn.commit()
 conn = sqlite3.connect(bancoDados)
 
-dfFilmes = pd.read_sql_query('SELECT * FROM filmes', conn)
+dfShows = pd.read_sql_query('SELECT * FROM shows', conn)
 conn.close()
 
 print('---------------------------------------------')
-print(tabulate(dfFilmes, headers='keys', tablefmt='psql'))
+print(tabulate(dfShows, headers='keys', tablefmt='psql'))
 print('----------------------------------------------')
 print('---------------------------------------------')
 print('Dados raspados e salvos com sucesso')
