@@ -121,6 +121,7 @@ def upload():
             if_exists =  'replace',
             index = False
         )
+        conn.commit()
     return jsonify({"Mensagem":"Dados cadastrador com sucesso!"})
 
 @app.route(rotas[2], methods = ['GET', 'POST'])
@@ -304,6 +305,160 @@ def editar_selic():
         <br>
         <a href="{rotas[0]}"> Voltar </a>
     ''')
+
+
+@app.route(rotas[5])
+def correlacao():
+    with sqlite3.connect(caminhoBd) as conn:
+        inad_df = pd.read_sql_query('SELECT * FROM inadimplencia', conn)
+        selic_df = pd.read_sql_query('SELECT * FROM selic', conn)
+
+    #realiza uma juncao entre dois dataframes usando a coluna de mes como chave de juncao
+    merged  = pd.merge(inad_df, selic_df, on = 'mes')
+
+    #calcula o coeficiente da corelação de peradon entre as duas varivais (inadimplencia e selic)
+    #quero correlacionar a coluna inadimplencia com a selic
+    correl = merged['inadimplencia'].corr(merged['selic_diaria'])
+
+    #registrar as variaveis para a regressao linear onde x é a variaval independente (no caso selic_diaria campo)
+    x = merged['selic_diaria']
+
+    # y é a variavel dependente
+    y = merged['inadimplencia']
+
+    #calcula o coeficiente da reta de regressao linear onde 'm' é a inlinacao e 'b' é a interseção
+    #realizar o calculo esse cauclo é feito pelo polyfit -  calcula a regreção
+    #x independente y pentendete - indepentede depende da dependente - 1 polinomio
+    m, b = np.polyfit(x, y, 1)
+
+
+    # a partir daqui vamos gerar o grafico
+    #eixo x recebe o x da selit diaria e y da indimpkencia
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x = x,
+        y = y,
+        mode = 'markers',
+        name = 'Inadimplencia X Selic',
+        #marker  para alterar os mrcadores
+        marker  = dict(
+            color = 'rgba(0, 123, 255, 0.8)',
+            size = 12,
+            line = dict(width = 2, color = 'white'),
+            symbol = 'circle'
+            ),
+        #hovertemplate - controla o que vao acontecer quando passa o mouse por cima do elemento
+        hovertemplate = 'SELIC: %{x:.2f}%<br>Inadimplencia: %{y:.2f}%<extra></extra>'
+        )
+    )
+
+    #adicionar a linha de tentendia de regreção linear
+    fig.add_trace(go.Scatter(
+        x = x, #mesmo eixo de dados do anterior
+        y = m * x + b, # a equação de linha de tendencia 
+        mode = 'lines',
+        name = 'Linha de Tendencia',
+        line = dict(
+            color = 'rgba(255, 53, 69, 1)',
+            width = 4,
+            dash = 'dot' #tipo de linha
+            )
+        )
+    )
+
+    #formatar o grafico
+    fig.update_layout(
+        title = {
+            'text':f'<b>Correlação entre Selic e Inadimplencia</b><br><span style="fonte-size:16px">Coeficiente de Correlação: {correl:.2f}</span>', 
+            'y':0.95, #posicao vertical do titulo (95% da altura do grafico)
+            'x':0.5, #posicao horizontal do titulo (50% da altura do grafico)
+            'xanchor':'center', #alinha o titulo horizontal ao centro
+            'yanchor':'top' # alinha o titulo verticalmente ao topo
+        },
+        xaxis_title = dict(
+            text = 'SELIC Média Mensal (%)', #titulo do eixo x
+            font = dict(
+                size = 18,
+                family = 'Arial',
+                color = 'gray'
+            )
+        ),
+        yaxis_title = dict(
+            text = 'Inadimplencia (%)', #titulo do exixo y
+            font = dict(
+                size = 18,
+                family = 'Arial',
+                color = 'gray'
+            )           
+        ),
+        xaxis = dict(
+            tickfont = dict(
+                size = 14,
+                family = 'Arial',
+                color = 'black',
+            ),
+            gridcolor = 'lightgray'
+        ),
+        yaxis = dict(
+            tickfont = dict(
+                size = 14,
+                family = 'Arial',
+                color = 'black',
+            ),
+            gridcolor = 'lightgray'
+        ),
+        font = dict(  #formatacao das fontes gerais a que eu nao formatei
+            family = 'Arial',
+            color = 'black'
+        ),
+        legend = dict(
+            orientation = 'h',               #legenda horizontal
+            yanchor = 'bottom',             #alinhamento vertical da legenda
+            y = 1.05,                       #posição  da legenda um pouco acima do grafico
+            xanchor = 'center',             #
+            x = 0.5,                        # posicao horizonta da legenda
+            bgcolor = 'rgba(0,0,0,0)',      # cor de fundo da legenda
+            borderwidth = 0                 # largura da birda da legenda
+        ),
+        margin = dict(
+            l = 60,
+            r = 60,
+            t = 120,
+            b = 60
+        ),
+        plot_bgcolor = '#f8f9fa', #cor de fundo do grafico
+        paper_bgcolor = 'white' #cor de fundo da area do grafico
+    )
+
+    #gera o html do grafico sem o codigo javascript necessário para o grafico funcionar (inclusão externa)
+    graph_html = fig.to_html(
+        full_html = False,
+        include_plotlyjs = 'cdn'
+    )
+    #div classe 
+    return render_template_string('''
+        <html>
+            <head>
+                <title>Correlaçao SELIC VS e Inadimplencia</title>
+                <style>
+                    body{font-family:Arial; background-color:#ffffff, color=#333;}
+                    .container{width: 90%; margin: auto; text-align:center;}             
+                    h1{margin-top: 40px;}
+                    a{text-decoration:none; color: #007bff;}
+                    a:hover{text-decoration:underline;}
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h1>Correlaçao SELIC VS e Inadimplencia</h1>
+                    <div>{{ grafico|safe }}</div>
+                    <br>
+                    <div><a href="{{voltar}}">Voltar</a></div>
+                </div>
+            </body>
+        </html>
+    ''', grafico = graph_html, voltar =  rotas[0])
+
 
 
 if __name__ == '__main__':
