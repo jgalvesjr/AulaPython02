@@ -16,4 +16,8 @@ se for pagina, faço outra query no backend para mostrar mais 10 items e assim p
 
 https://string.com/ - crar um fluxo e as ferramentas
 Exemplo quero um fluxo para pegar todas as noticas tipo Fatima Bernads e Willian Bonner e me mandar no whatsup
+w3cschool - cores padrão para usar em grafico do go
 
+https://color.adobe.com/pt/create/color-wheel - complementar arrasta cor  monta a paleta de cores para vc
+
+https://cubovelocidade.com.br/tutoriais
