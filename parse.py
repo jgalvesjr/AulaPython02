@@ -66,28 +66,41 @@ def interpretador(codigo, variaveis=None):
             if condicao.strip() == "verdadeiro":
                 interpretador(comando.strip(), variaveis) #executa o comando dentro da ocndição
 
+
+
         #se for um laço "enquanto"
         elif linha.startswith("enquanto"):
-            resto = linha[8].strip()
-            if " faça " not in resto:
-                print(f"Erro de sintaxe: {linha}")
-                continue
-            condicao, comando = resto.split(" faça ", 1)
             condicao = linha[8:].split(" faça ")[0].strip()
-            comando = linha.split( " faça ")[1].strip()
+            comando = linha.split(" faça ")[1].strip()
 
-            # verifica condicao do looping (por enquanto, consideramos veradeiro ou falso)
-            while condicao == "verdadeiro":
-                interpretador(comando) #exeuta o comando dentro do loop
-                break #evita loops infinitos para esse exemplo
+            #verifica a condição do looping (por enquanto , consideramos verdadeiro ou falso)
+            while condicao == 'verdadeiro':
+                interpretador(comando) # executa o comando dentro do loop
+                break # evita loops infinitos para esse exemplo
         else:
-            print(f'Comando não foi reconhecido {linha}')
+            print(f'Comando não foi reconhecido{linha}')
 
-codigo = """
+
+#Fazer como estava fazendo
+codigo_exemplo = """
     definir nome como "Joao"
     mostrar "O nome é" + nome    
     se verdadeiro então mostrar "Isso é verdadeiro"
     enquanto verdadeiro faça mostrar "Dentro do laço"
 """
 
-interpretador(codigo)
+escolha = input("Digite 1 para executar o código de exemplo ou 2 para digitar o seru proprio código: ")
+if escolha == "1":
+    interpretador(codigo_exemplo)
+elif escolha == "2":
+    linhas = []
+    print("Digite seu código (linha a linha). Para terminar deixe a linha em branco e pressione enter ou digite 'fim'")
+    while True:
+        linha = input()
+        if not linha or linha.strip().upper() == "FIM":
+            break
+        linhas.append(linha)
+    codigo_usuario = "\n".join(linhas)
+    interpretador(codigo_usuario)
+else:
+    print("Opçao invalida!!!")
